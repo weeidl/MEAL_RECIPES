@@ -14,35 +14,35 @@
         >
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/Meal_imageView"
             android:src="@drawable/meal_1"
             android:layout_width="200dp"
             android:scaleType="fitXY"
             android:layout_height="200dp" />
 
         <TextView
-            android:id="@+id/text"
+            android:id="@+id/title_imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Text 1"
+            android:text="Title"
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
-            android:layout_toRightOf="@id/imageView"
+            android:layout_toRightOf="@id/Meal_imageView"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/text2"
+            android:id="@+id/description_imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Text 2"
+            android:text="Description"
             android:textSize="15sp"
             android:layout_marginStart="10dp"
-            android:layout_toRightOf="@id/imageView"
+            android:layout_toRightOf="@id/Meal_imageView"
             android:textStyle="italic"
             android:textColor="@color/black"
             android:layout_margin="10dp"
-            android:layout_below="@+id/text"
+            android:layout_below="@+id/title_imageView"
             />
 
 
