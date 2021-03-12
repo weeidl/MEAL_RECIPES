@@ -1,4 +1,4 @@
-# MEAL_RECIPES
+  # MEAL_RECIPES
 
 ## An application containing food recipes
 
